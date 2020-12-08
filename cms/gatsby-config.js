@@ -19,6 +19,7 @@ module.exports = {
         name: `blog`,
       },
     },
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
