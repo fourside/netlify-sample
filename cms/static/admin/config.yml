@@ -4,3 +4,13 @@ backend:
 
 media_folder: content/assets
 public_folder: content/assets
+
+collections:
+  - name: news
+    label: ニュース
+    folder: news
+    create: true
+    fields:
+      - { name: date, label: 日付, widget: date }
+      - { name: title, label: タイトル }
+      - { name: body, label: 本文, widget: markdown }
